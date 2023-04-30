@@ -17,10 +17,15 @@ void main() {
             ),
           ),
           child: const Center(
-            child: Text('This is my first app'),
+            child: Text(
+              'This is my first app',
+              style: TextStyle(color: Colors.white, fontSize: 28),
+            ),
           ),
         ),
       ),
     ),
   );
 }
+
+
