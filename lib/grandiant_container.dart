@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'package:first_learning_app/styled_text.dart';
+
 class GradiantContainer extends StatelessWidget {
   const GradiantContainer({super.key});
-  @override 
+  @override
   Widget build(context) {
     return Container(
       decoration: const BoxDecoration(
@@ -16,11 +18,9 @@ class GradiantContainer extends StatelessWidget {
         ),
       ),
       child: const Center(
-        child: Text(
-          'This is my first app',
-          style: TextStyle(color: Colors.white, fontSize: 28),
-        ),
+        child: StyledText(),
       ),
     );
   }
 }
+
