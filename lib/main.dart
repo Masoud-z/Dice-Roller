@@ -4,13 +4,13 @@ import 'package:first_learning_app/grandiant_container.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.white,
         body: GradiantContainer(
           Colors.deepPurple,
           Colors.indigo,
-          colors: [
+          colors: const [
             Color.fromARGB(255, 33, 5, 109),
             Color.fromARGB(255, 68, 21, 149),
           ],
