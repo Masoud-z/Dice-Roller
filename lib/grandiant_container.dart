@@ -21,7 +21,11 @@ class GradiantContainer extends StatelessWidget {
         ),
       ),
       child: const Center(
-        child: StyledText(),
+        child: StyledText(
+          "This is my first app",
+          Colors.white,
+          28,
+        ),
       ),
     );
   }
