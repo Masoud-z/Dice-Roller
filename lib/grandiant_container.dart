@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:first_learning_app/styled_text.dart';
-
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
@@ -27,11 +25,15 @@ class GradiantContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: const Center(
-        child: StyledText(
-          "This is my first app",
-          Colors.white,
-          28,
+      child: Center(
+        child: Column(
+          children: [
+            Image.asset(
+              'assets/images/dice2.png',
+              width: 200,
+            ),
+            
+          ],
         ),
       ),
     );
